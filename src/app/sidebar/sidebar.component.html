@@ -1,0 +1,44 @@
+<nav>
+  <ul>
+    <li>
+      <a routerLink="">
+          <picture>
+              <source srcset="../../assets/fafslogo48.png" media="(max-width: 600px)">
+              <source srcset="../../assets/fafslogo96.png" media="(max-width: 800px)">
+              <source srcset="../../assets/fafslogo114.png" media="(min-width: 801px)">
+              <img src="../../assets/fafslogo114.png" alt="Sweetness from our home to yours" style="width: auto;">
+            </picture>
+      </a>
+    </li>
+    <li>
+      <a routerLink="about" [class.activated]="currentUrl == '/about'">
+        <i class="material-icons">filter_vintage</i> 
+        <div>About Us</div>
+      </a>
+    </li>
+    <li>
+        <a routerLink="menu" [class.activated]="currentUrl == '/menu'">
+          <i class="material-icons">chrome_reader_mode</i>
+          <div>Menu</div>
+        </a>
+      </li>
+      <li>
+          <a routerLink="events" [class.activated]="currentUrl == '/events'">
+            <i class="material-icons">event</i> 
+            <div>Events</div>
+          </a>
+        </li>
+        <li>
+            <a routerLink="blog" [class.activated]="currentUrl == '/blog'"> 
+              <i class="material-icons">note_add</i> 
+              <div>Blog</div>
+            </a>
+          </li>
+          <li>
+              <a routerLink="contact" [class.activated]="currentUrl == '/contact'">
+                <i class="material-icons">shopping_basket</i> 
+                <div>How to Order</div>
+              </a>
+            </li>
+  </ul>
+</nav>
