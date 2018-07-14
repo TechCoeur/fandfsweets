@@ -5,30 +5,35 @@
     div.tinted-image 
     {
         padding: 0%;
-        height: 100%;
+        height: 100vh;
         background:  
         linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
         url(../../assets/home/pastries-L.jpeg);
     }
 
-    div.header
+    div
     {
-        padding-top: 15%;
-        text-align: center;
-        vertical-align: center;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 60px;
-        font-stretch: expanded;
-        color: #A74482;
-    }
+       
+        #header
+        {
+            padding-top: 15%;
+            text-align: center;
+            vertical-align: center;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 60px;
+            font-stretch: expanded;
+            color: #A74482;
+        }
 
-    div.title
-    {
-        text-align: center;
-        vertical-align: center;
-        font-family: 'Satisfy', cursive;
-        font-size: 25px;
-        color: #306B34;
+        #title
+        {
+            text-align: center;
+            vertical-align: center;
+            font-family: 'Satisfy', cursive;
+            font-size: 25px;
+            color: #306B34;
+        }
+
     }
 }
 
@@ -44,24 +49,27 @@
         url(../../assets/home/pastries-M.jpeg);
     }
 
-    div.header
+    div
     {
-        padding-top: 15%;
-        text-align: center;
-        vertical-align: center;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 40px;
-        font-stretch: expanded;
-        color: #A74482;
-    }
+        #header
+        {
+            padding-top: 15%;
+            text-align: center;
+            vertical-align: center;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 40px;
+            font-stretch: expanded;
+            color: #A74482;
+        }
 
-    div.title
-    {
-        text-align: center;
-        vertical-align: center;
-        font-family: 'Satisfy', cursive;
-        font-size: 15px;
-        color: #306B34;
+        #title
+        {
+            text-align: center;
+            vertical-align: center;
+            font-family: 'Satisfy', cursive;
+            font-size: 15px;
+            color: #306B34;
+        }
     }
 }
 
@@ -78,23 +86,26 @@
         url(../../assets/home/pastries-S.jpeg);
     }
 
-    div.header
+    div
     {
-        padding-top: 15%;
-        text-align: center;
-        vertical-align: center;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 20px;
-        font-stretch: expanded;
-        color: #A74482;
-    }
+        #header
+        {
+            padding-top: 15%;
+            text-align: center;
+            vertical-align: center;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 20px;
+            font-stretch: expanded;
+            color: #A74482;
+        }
 
-    div.title
-    {
-        text-align: center;
-        vertical-align: center;
-        font-family: 'Satisfy', cursive;
-        font-size: 9px;
-        color: #306B34;
+        #title
+        {
+            text-align: center;
+            vertical-align: center;
+            font-family: 'Satisfy', cursive;
+            font-size: 9px;
+            color: #306B34;
+        }
     }
 }
