@@ -6,6 +6,7 @@
     {
         padding: 0%;
         height: 100vh;
+        width: 100%;
         background:  
         linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
         url(../../assets/home/pastries-L.jpeg);
@@ -19,7 +20,7 @@
             padding-top: 15%;
             text-align: center;
             vertical-align: center;
-            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Poiret One', cursive;
             font-size: 60px;
             font-stretch: expanded;
             color: #A74482;
@@ -29,12 +30,47 @@
         {
             text-align: center;
             vertical-align: center;
-            font-family: 'Satisfy', cursive;
-            font-size: 25px;
+            font-family: 'Sacramento', cursive;
+            font-size: 40px;
+            color: #306B34;
+        }
+
+        #name
+        {
+            padding-top: 5%;
+            text-align: center;
+            font-family: 'Amatic SC', cursive;
+            font-size: 35px;
             color: #306B34;
         }
 
     }
+    /* best seller */
+    #bestseller
+    {
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+    }
+
+    #row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      #column {
+        flex: 20%;
+        max-width: 20%;
+        padding: 0 4px;
+      }
+      
+      #column img {
+        margin-top: 8px;
+        vertical-align: middle;
+      }
+      
 }
 
 /* max width @ 700*/
@@ -69,6 +105,38 @@
             font-family: 'Satisfy', cursive;
             font-size: 15px;
             color: #306B34;
+        }
+
+        #name
+        {
+            padding-top: 5%;
+            text-align: center;
+            font-family: 'Gaegu', sans-serif;
+            font-size: 25px;
+            color: #306B34;
+        }
+
+    }
+    /* best seller */
+    nav
+    {
+        ul
+        {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+
+            li
+            {
+                font-family: 'Gaegu', sans-serif;
+                font-size: 1.2em;
+                line-height: 40px;
+                height: 200px;
+                border-bottom: 1px solid #888;
+                display: inline-block;
+                margin-right: 0.5%;
+            }
         }
     }
 }
@@ -106,6 +174,37 @@
             font-family: 'Satisfy', cursive;
             font-size: 9px;
             color: #306B34;
+        }
+        #name
+        {
+            padding-top: 5%;
+            text-align: center;
+            font-family: 'Gaegu', sans-serif;
+            font-size: 25px;
+            color: #306B34;
+        }
+
+    }
+    /* best seller */
+    nav
+    {
+        ul
+        {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+
+            li
+            {
+                font-family: 'Gaegu', sans-serif;
+                font-size: 1.2em;
+                line-height: 40px;
+                height: 200px;
+                border-bottom: 1px solid #888;
+                display: inline-block;
+                margin-right: 0.5%;
+            }
         }
     }
 }
